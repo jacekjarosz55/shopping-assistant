@@ -1,4 +1,3 @@
-
 from dataclasses import dataclass
 
 
@@ -10,7 +9,14 @@ class Product:
     category: str
     store_name: str
 
-    def __init__(self, name: str, model: str, price: float, category: str, store_name: str):
+    def __init__(
+        self,
+        name: str,
+        model: str,
+        price: float,
+        category: str,
+        store_name: str,
+    ):
         self.name = name
         self.model = model
         self.price = float(price)
@@ -19,4 +25,3 @@ class Product:
 
     def __repr__(self):
         return f"{self.name} {self.model} ({self.category}) - {self.price:.2f} zł w {self.store_name}"
-

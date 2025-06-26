@@ -13,4 +13,3 @@ class Store:
         if category_filter:
             return [p for p in self.products if p.category == category_filter]
         return self.products
-

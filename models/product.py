@@ -24,4 +24,7 @@ class Product:
         self.store_name = store_name
 
     def __repr__(self):
-        return f"{self.name} {self.model} ({self.category}) - {self.price:.2f} zł w {self.store_name}"
+        return (
+            f"{self.name} {self.model} ({self.category}"
+            f" - {self.price:.2f} zł w {self.store_name}"
+        )

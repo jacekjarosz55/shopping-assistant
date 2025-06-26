@@ -9,6 +9,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+def add_done_message(func):
+    """Adds a done message to a function"""
+
+    def wrapper():
+        func()
+        print("Done!")
+    return wrapper
+
+
 def print_cart_sum(cart_items: List[Product]) -> None:
     """Calculate and print the total sum of products in the cart.
 
@@ -135,9 +144,11 @@ def generate_price_comparison_chart(product_type: str, stores: List[Store]):
             )
 
     plt.tight_layout()
+    print("Wygenerowano wykres")
     plt.show()
 
 
+@add_done_message
 def sort_query() -> bool:
     """Get user input for sorting preference.
 
@@ -197,10 +208,11 @@ def main() -> None:
 
             if product_filter:
                 products = filter(
-                    lambda p: p.name.lower() == product_filter.lower(), products
+                    lambda p: p.name.lower() == product_filter.lower(),
+                    products,
                 )
 
-            products = sort_products_by_price(products, sort_query())
+            products = sort_products_by_price(products, sort_query)
 
             for product in products:
                 print(product)
@@ -317,7 +329,6 @@ def main() -> None:
                     ][0]
                     selected_store.remove_product(matches[sel])
                     all_products.remove(matches[sel])
-                    print("Dodano do koszyka.")
                 except (ValueError, IndexError):
                     print("Niepoprawny wybór.")
         elif choice == "0":

@@ -27,8 +27,9 @@ class Cart:
         data = [
             {
                 "name": p.name,
-                "category": p.category,
+                "model": p.category,
                 "price": p.price,
+                "category": p.category,
                 "store_name": p.store_name,
             }
             for p in self.items

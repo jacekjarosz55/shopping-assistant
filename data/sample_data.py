@@ -32,7 +32,13 @@ def generate_random_model(category: str) -> str:
 def get_sample_products(category: str, count: int):
     """Generuje listę produktów danej kategorii"""
     product_templates = {
-        "Elektronika": ["Telewizor", "Monitor", "Laptop", "Tablet", "Smartfon"],
+        "Elektronika": [
+            "Telewizor",
+            "Monitor",
+            "Laptop",
+            "Tablet",
+            "Smartfon",
+        ],
         "AGD": ["Lodówka", "Pralka", "Zmywarka", "Piekarnik", "Odkurzacz"],
         "Audio": [
             "Słuchawki",
@@ -48,7 +54,13 @@ def get_sample_products(category: str, count: int):
             "Statyw",
             "Lampa studyjna",
         ],
-        "Gaming": ["Klawiatura", "Mysz", "Kontroler", "Słuchawki", "Podkładka"],
+        "Gaming": [
+            "Klawiatura",
+            "Mysz",
+            "Kontroler",
+            "Słuchawki",
+            "Podkładka",
+        ],
         "Wearables": [
             "Smartwatch",
             "Opaska",
@@ -109,7 +121,9 @@ def get_sample_stores() -> List[Store]:
             for name, model, price in products_data:
                 if random.random() < 0.25:
                     store.add_product(
-                        LimitedProduct(name, model, price, category, store.name)
+                        LimitedProduct(
+                            name, model, price, category, store.name
+                        )
                     )
                 else:
                     store.add_product(
@@ -169,7 +183,5 @@ def load_stores_from_json(filename: str = "stores_data.json") -> List[Store]:
         print(f"Błąd w formacie pliku {filename}. Używam domyślnych danych.")
         return get_sample_stores()
     except KeyError as e:
-        print(
-            f"Brak wymaganego pola w pliku JSON: {e}. Używam domyślnych danych."
-        )
+        print(f"Brak pola w pliku JSON: {e}. Używam domyślnych danych.")
         return get_sample_stores()

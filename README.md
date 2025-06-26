@@ -19,3 +19,14 @@ Aplikacja wspomagająca porównywanie cen produktów między różnymi sklepami 
 - matplotlib
 - numpy
 - flake8 (do testów statycznej analizy kodu)
+
+
+## Uruchamianie
+`python main.py`
+
+## Testy
+`python run_tests.py`
+dla analizy kodu
+`flake8 .`
+
+

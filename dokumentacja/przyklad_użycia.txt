@@ -1,0 +1,34 @@
+Plik stores_data.json nie istnieje. Używam domyślnych danych.
+
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję: 1
+Kategoria (pozostaw puste by nie filtrować):AGD
+Rodzaj produktu (pozostaw puste by nie filtrować):
+Cena:
+1.Rosnąco
+2.Malejąco
+Wybierz opcję:1
+Done!
+[OFERTA LIMITOWANA -20%] - Odkurzacz Clean510A (AGD)- 583.94 zł w RTV Euro AGD
+Piekarnik Eco372H (AGD) - 870.83 zł w Neonet
+Lodówka Power548H (AGD) - 975.72 zł w Neonet
+[OFERTA LIMITOWANA -20%] - Zmywarka Power171A (AGD)- 1017.30 zł w RTV Euro AGD
+Zmywarka Eco439H (AGD) - 2368.25 zł w MediaMarkt
+Lodówka Eco210G (AGD) - 2441.01 zł w RTV Euro AGD
+Lodówka Fresh494H (AGD) - 4508.89 zł w MediaMarkt
+Zmywarka Power338A (AGD) - 4756.25 zł w MediaMarkt
+Lodówka Clean176F (AGD) - 4761.80 zł w Neonet
+
+
+

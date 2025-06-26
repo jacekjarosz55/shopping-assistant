@@ -1,0 +1,11 @@
+.
+├── data/               # Moduł danych
+│   ├── sample_data.py  # Generowanie danych testowych
+│   └── stores.json     # Przykładowe dane
+├── logic/              # Logika biznesowa
+│   ├── cart.py         # Obsługa koszyka
+│   └── utils.py        # Narzędzia pomocnicze
+├── models/             # Model danych
+│   ├── product.py      # Klasa Product
+│   └── store.py        # Klasa Store
+└── tests/              # Testy (integracyjne / funkcjonalne / jednostkowe)

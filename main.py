@@ -145,9 +145,9 @@ def generate_price_comparison_chart(product_type: str, stores: List[Store]):
             )
 
     plt.tight_layout()
+    plt.savefig(f"Wykres_{time()}.png", format="png")
     print("Wygenerowano wykres")
     plt.show()
-    plt.savefig(f"Wykres_{time()}.png", format="png")
 
 
 @add_done_message

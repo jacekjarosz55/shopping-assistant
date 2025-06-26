@@ -7,6 +7,7 @@ from models.product import Product
 from models.store import Store
 import matplotlib.pyplot as plt
 import numpy as np
+from time import time
 
 
 def add_done_message(func):
@@ -146,6 +147,7 @@ def generate_price_comparison_chart(product_type: str, stores: List[Store]):
     plt.tight_layout()
     print("Wygenerowano wykres")
     plt.show()
+    plt.savefig(f"Wykres_{time()}.png", format="png")
 
 
 @add_done_message

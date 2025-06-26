@@ -1,3 +1,6 @@
+## PRZYKLAD 1 - szukanie produktu i dodanie do koszyka
+```
+
 Plik stores_data.json nie istnieje. Używam domyślnych danych.
 
 === Asystent Zakupowy ===
@@ -20,15 +23,132 @@ Cena:
 2.Malejąco
 Wybierz opcję:1
 Done!
-[OFERTA LIMITOWANA -20%] - Odkurzacz Clean510A (AGD)- 583.94 zł w RTV Euro AGD
-Piekarnik Eco372H (AGD) - 870.83 zł w Neonet
-Lodówka Power548H (AGD) - 975.72 zł w Neonet
-[OFERTA LIMITOWANA -20%] - Zmywarka Power171A (AGD)- 1017.30 zł w RTV Euro AGD
-Zmywarka Eco439H (AGD) - 2368.25 zł w MediaMarkt
-Lodówka Eco210G (AGD) - 2441.01 zł w RTV Euro AGD
-Lodówka Fresh494H (AGD) - 4508.89 zł w MediaMarkt
-Zmywarka Power338A (AGD) - 4756.25 zł w MediaMarkt
-Lodówka Clean176F (AGD) - 4761.80 zł w Neonet
+[OFERTA LIMITOWANA -20%] - Pralka Clean149A (AGD)- 615.82 zł w Neonet
+Pralka Eco994A (AGD) - 872.02 zł w Neonet
+Lodówka Quick730D (AGD) - 1071.32 zł w MediaMarkt
+Pralka Eco412F (AGD) - 1139.32 zł w MediaMarkt
+Pralka Fresh281F (AGD) - 1198.51 zł w RTV Euro AGD
+Odkurzacz Fresh213G (AGD) - 1293.42 zł w Neonet
+Pralka Fresh215C (AGD) - 1294.99 zł w Neonet
+Pralka Eco176H (AGD) - 1697.18 zł w MediaMarkt
+Zmywarka Quick619D (AGD) - 2841.04 zł w Neonet
+[OFERTA LIMITOWANA -20%] - Odkurzacz Fresh269A (AGD)- 3509.15 zł w RTV Euro AGD
+Piekarnik Fresh203G (AGD) - 3675.68 zł w RTV Euro AGD
+Zmywarka Eco285B (AGD) - 3768.86 zł w RTV Euro AGD
+[OFERTA LIMITOWANA -20%] - Odkurzacz Eco592F (AGD)- 3832.10 zł w RTV Euro AGD
+Lodówka Power799A (AGD) - 4213.42 zł w Neonet
+Piekarnik Eco218E (AGD) - 4843.91 zł w RTV Euro AGD
+Odkurzacz Clean934B (AGD) - 4995.89 zł w MediaMarkt
 
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję: 2
+Podaj nazwę produktu: Zmywarka
+1. Zmywarka Eco285B (AGD) - 3768.86 zł w RTV Euro AGD
+2. Zmywarka Quick619D (AGD) - 2841.04 zł w Neonet
+Wybierz numer do dodania do koszyka: 2
+Dodano do koszyka.
 
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję: 4
+1. Zmywarka Quick619D - 2841.04 zł
+Łączna suma - 2841.04zł
 
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję: 5
+Zapisano koszyk do pliku.
+
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję:
+```
+
+## PRZYKLAD 2 - Dodanie produktu w sklepie
+```
+
+Plik stores_data.json nie istnieje. Używam domyślnych danych.
+
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję: 6
+Dostępne sklepy:
+1. MediaMarkt
+2. RTV Euro AGD
+3. Komputronik
+4. Neonet
+5. Decathlon
+6. Empik
+Wybierz numer sklepu: 3
+Typ Produktu: Pralka
+Nazwa produktu: BoschTest 200
+Cena: 1000
+Kategoria: AGD
+Dodano produkt Pralka do sklepu Komputronik
+
+=== Asystent Zakupowy ===
+1. Pokaż produkty
+2. Dodaj do koszyka
+3. Usuń z koszyka
+4. Pokaż koszyk
+5. Zapisz koszyk
+6. Dodaj produkt do sklepu
+7. Dodaj sklep
+8. Wygeneruj porównanie dla produktu
+9. Zapisz zmienione dane sklepu
+10. Usuń produkt
+0. Wyjście
+Wybierz opcję: 0
+Do zobaczenia!
+```

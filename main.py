@@ -236,6 +236,8 @@ def main() -> None:
                     print("Dodano do koszyka.")
                 except (ValueError, IndexError):
                     print("Niepoprawny wybór.")
+                finally:
+                    print("Koniec")
 
         elif choice == "3":
             show_cart_recursive(cart.items)

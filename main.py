@@ -25,6 +25,7 @@ def print_cart_sum(cart_items: List[Product]) -> None:
     Args:
         cart_items: List of Product objects in the cart
     """
+    # using a reduce function to add functional code
     total = reduce(lambda x, y: x + y, map(lambda x: x.price, cart_items), 0)
     print(f"Łączna suma - {total}zł")
 

@@ -222,7 +222,7 @@ def main() -> None:
 
         elif choice == "2":
             name = input("Podaj nazwę produktu: ").lower()
-            matches = [p for p in all_products if p.name.lower() == name]
+            matches = list(filter(lambda x: x.name.lower() == name, all_products))
             if not matches:
                 print("Nie znaleziono produktu.")
             else:
